@@ -1,0 +1,17 @@
+# Dependencies and builds
+node_modules/
+.next/
+out/
+
+# Secrets: never commit these
+.env*
+!.env.example
+
+# OS and editor files
+.DS_Store
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Private client notes: keep out of this public repo until Capital Kranti agrees
+capital-kranti-client-brief.md
